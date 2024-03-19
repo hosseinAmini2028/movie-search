@@ -18,7 +18,7 @@ export const movieApi = createApi({
 
   endpoints: (builder) => ({
     getMovies: builder.query<MovieList, string>({
-      query: (query) => `/?apikey=${apiKey}6&${query}`,
+      query: (query) => `/?apikey=${apiKey}&${query}`,
 
       transformResponse(res: { Search: MovieListItem[]; totalResults: string }) {
         const { Search, totalResults } = res;
