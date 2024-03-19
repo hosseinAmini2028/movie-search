@@ -41,7 +41,7 @@ export default function SearchInput(props: Props) {
         }
         endAdornment={
           <InputAdornment position="start">
-            {/* isLoading &&  */(
+            { isLoading && (
               <span>
                 <IconLoading width={22} height={22} />
               </span>

@@ -1,6 +1,6 @@
 # Movie Search Application
 
-It is a movie search application and includes a list view and details developed by React + TypeScript + Vite
+It is a movie search application and includes a list view and details developed by React + TypeScript + NextJs
 
 Currently, two official plugins are available:
 
